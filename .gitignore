@@ -1,2 +1,4 @@
 .hugo_build.lock
 .history
+/模板/
+.obsidian
