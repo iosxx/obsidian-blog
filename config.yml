@@ -84,18 +84,18 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi! I'm Evan Miao \U0001F44B"
+    Title: "Hi! I'm naive \U0001F44B"
     Content: "一名想热爱生活的程序员 - **[进一步了解我](/about)**"
 
   socialIcons:
     - name: x
-      url: "https://x.com/laomiao_"
+      url: "https://x.com/"
     - name: telegram
-      url: "https://t.me/evan_share"
+      url: "https://t.me/"
     # - name: stackoverflow
     #   url: "https://stackoverflow.com"
     - name: github
-      url: "https://github.com/miaogaolin"
+      url: "https://github.com"
     - name: rss
       url: "/index.xml"
 
@@ -115,8 +115,8 @@ params:
     defaultImage: https://images.unsplash.com/photo-1594193316420-74562b321032?w=400&fm=webp&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGdyYWRpZW50JTIwYmxhY2t8ZW58MHwwfDB8fHwy
 
   editPost:
-    URL: "https://github.com/miaogaolin/workspace-obisidian-publisher/tree/main/content"
-    Text: "指出问题" # edit text
+    URL: "https://github.com/iosxx/obsidian-blog/tree/main/content"
+    Text: "编辑" # edit text
     appendFilePath: true # to append file path to Edit link
 
   # for search
@@ -143,9 +143,9 @@ languages:
         - name: 文章
           url: archives
           weight: 1
-        # - name: 标签
-        #   url: tags
-        #   weight: 2
+        - name: 标签
+          url: tags
+          weight: 2
         - name: 系列
           url: series
           weight: 2
